@@ -2,11 +2,11 @@
 
 A comprehensive collection of LangChain and LangGraph implementations showcasing various AI agent architectures and patterns.
 
-## 🚀 Overview
+## Overview
 
 This project demonstrates different implementations of AI agents using LangChain and LangGraph, ranging from basic reflection systems to complex RAG (Retrieval-Augmented Generation) agents. Each implementation is organized in its own directory, providing a progressive learning path from simple to advanced concepts.
 
-## 📁 Project Structure
+## Project Structure
 
 The project is organized into several modules, each focusing on different aspects of AI agent development:
 
@@ -20,12 +20,12 @@ The project is organized into several modules, each focusing on different aspect
 8. `8_human-in-the-loop/` - Interactive agent systems
 9. `9_RAG_agent/` - Retrieval-Augmented Generation agents
 
-## 🛠️ Prerequisites
+## Prerequisites
 
 - Python 3.8+
 - pip (Python package manager)
 
-## ⚙️ Installation
+## Installation
 
 1. Clone the repository:
 ```bash
@@ -52,7 +52,7 @@ GOOGLE_API_KEY=your_google_api_key
 GROQ_API_KEY=your_groq_api_key
 ```
 
-## 📚 Dependencies
+## Dependencies
 
 - langchain - Core LangChain functionality
 - langchain-community - Community-maintained LangChain integrations
@@ -65,24 +65,21 @@ GROQ_API_KEY=your_groq_api_key
 - chromadb - Vector database for RAG implementations
 - langgraph-checkpoint-sqlite - State persistence
 
-## 🔧 Usage
+## Usage
 
 Each module contains its own implementation and can be run independently. Navigate to the specific module directory and follow the instructions in its README file.
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
 
-## 📝 License
+## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-## ⚠️ Security
+## Security
 
 - Never commit your `.env` file or expose API keys
 - Use environment variables for sensitive information
 - Follow security best practices when deploying agents
 
-## 📫 Contact
-
-For questions or support, please open an issue in the GitHub repository.
